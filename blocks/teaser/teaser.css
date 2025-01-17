@@ -64,10 +64,6 @@
     border-width: 0 0 0 10px;
 }
 
-.block.teaser p.terms-and-conditions::before {
-    content: "Terms and conditions: ";
-}
-
 /* Add underlines to links in the text */
 .block.teaser a:hover {
     text-decoration: underline;
