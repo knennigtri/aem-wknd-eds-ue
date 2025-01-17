@@ -46,11 +46,9 @@ export default function decorate(block) {
   block.querySelectorAll('p').forEach((p) => {
     const innerHTML = p.innerHTML?.trim();
 
-    if (innerHTML?.startsWith('*')) {
+    if (innerHTML?.startsWith('Terms and conditions:')) {
       /* If a paragraph starts with '*', add a special CSS class. */
       p.classList.add('terms-and-conditions');
-      // Remove the leading *
-      p.innerHTML = innerHTML.substring('*'.length);
     }
   });
 
