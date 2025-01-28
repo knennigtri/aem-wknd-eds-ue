@@ -191,18 +191,13 @@
       {
         "component": "reference",
         "label": "Single Reference",
-        "description": "Select any asset in /content/dam/wknd-shared",
-        "name": "singlereference",
+        "description": "Select any asset in /content/dam",
+        "name": "reference",
         "valueType": "string",
-        "multi": false
-      },
-      {
-        "component": "reference",
-        "label": "Multiple References",
-        "description": "Select any asset in /content/dam/wknd-shared",
-        "name": "multireference",
-        "valueType": "string",
-        "multi": true
+        "multi": false,
+        "validation": {
+          "rootPath": "/content/dam/wknd-shared"
+        }
       }
     ]
   },
