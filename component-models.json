@@ -158,7 +158,9 @@
         "label": "Content Fragment Picker",
         "valueType": "string",
         "variationName": "contentFragmentVariation",
-        "root": "/content/dam"
+        "validation": {
+          "root": "/content/dam"
+        }
       }
     ]
   },
@@ -173,10 +175,13 @@
       },
       {
         "component": "aem-content",
-        "name": "reference",
+        "name": "aemreference",
         "value": "",
         "label": "AEM Content Picker",
-        "valueType": "string"
+        "valueType": "string",
+        "validation": {
+          "rootPath": "/content/dam"
+        }
       },
       {
         "component": "reference",
@@ -196,7 +201,7 @@
         "label": "experience-fragment",
         "variationName": "experienceFragmentVariation",
         "validation": {
-          "rootPath": "/content/refresh"
+          "rootPath": "/content/experience-fragments"
         }
       }
     ]
