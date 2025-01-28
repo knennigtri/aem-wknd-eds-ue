@@ -154,13 +154,14 @@
     "fields": [
       {
         "component": "aem-content-fragment",
-        "name": "picker",
+        "name": "fragmentpath",
         "label": "Content Fragment Picker",
         "valueType": "string",
         "variationName": "contentFragmentVariation",
         "validation": {
           "root": "/content/dam"
-        }
+        },
+        "multi": false
       }
     ]
   },
@@ -173,9 +174,8 @@
         "description": "Select an AEM tag",
         "name": "cq:tags",
         "valueType": "string",
-        "validation": {
-          "rootPath": "/content/cq:tags"
-        }
+        "rootPath": "/content/cq:tags",
+        "multi": true
       },
       {
         "component": "aem-content",
@@ -185,15 +185,24 @@
         "description": "Select any content in AEM",
         "valueType": "string",
         "validation": {
-          "rootPath": "/content"
+          "rootPath": "/content/aem-wknd-eds-ue"
         }
       },
       {
         "component": "reference",
-        "label": "Reference",
-        "description": "Select any asset in /content/dam",
+        "label": "Single Reference",
+        "description": "Select any asset in /content/dam/wknd-shared",
         "name": "reference",
-        "valueType": "string"
+        "valueType": "string",
+        "multi": false
+      },
+      {
+        "component": "reference",
+        "label": "Multiple References",
+        "description": "Select any asset in /content/dam/wknd-shared",
+        "name": "reference",
+        "valueType": "string",
+        "multi": true
       }
     ]
   },
@@ -420,8 +429,8 @@
         "description": "This is a text input with validation.",
         "required": true,
         "validation": {
-          "minLength": 1955,
-          "maxLength": 1985,
+          "minLength": 3,
+          "maxLength": 50,
           "regExp": "^foo:.*",
           "customErrorMsg": "Why don't you make like a tree and get outta here?"
         }
