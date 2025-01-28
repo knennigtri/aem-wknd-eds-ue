@@ -16,10 +16,10 @@
       "cards",
       "columns",
       "fragment",
-      "numberfields",
-      "selectfields",
+      "number-fields",
+      "select-fields",
       "text-fields",
-      "contentpickers",
+      "content-pickers",
       "content-fragment",
       "experience-fragment"
     ]

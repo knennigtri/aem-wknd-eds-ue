@@ -166,7 +166,7 @@
     ]
   },
   {
-    "id": "contentpickers",
+    "id": "content-pickers",
     "fields": [
       {
         "component": "aem-tag",
@@ -249,7 +249,7 @@
     ]
   },
   {
-    "id": "numberfields",
+    "id": "number-fields",
     "fields": [
       {
         "component": "container",
@@ -297,7 +297,7 @@
     ]
   },
   {
-    "id": "selectfields",
+    "id": "select-fields",
     "fields": [
       {
         "component": "checkbox-group",
