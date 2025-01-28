@@ -193,7 +193,6 @@
         "description": "Select any asset in /content/dam",
         "name": "reference",
         "valueType": "string",
-        "multi": false,
         "rootPath": "/content/dam/wknd-shared"
       }
     ]
