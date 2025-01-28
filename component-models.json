@@ -425,6 +425,17 @@
           "regExp": "^foo:.*",
           "customErrorMsg": "Why don't you make like a tree and get outta here?"
         }
+      },
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Large",
+            "value": "large"
+          }
+        ]
       }
     ]
   }
