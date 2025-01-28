@@ -399,7 +399,7 @@
       },
       {
         "component": "richtext",
-        "name": "rte",
+        "name": "field_rte",
         "label": "Rich Text",
         "valueType": "string",
         "validation": {
@@ -414,7 +414,7 @@
       },
       {
         "component": "text",
-        "name": "text",
+        "name": "field_text",
         "label": "Simple Text",
         "valueType": "string",
         "description": "This is a text input with validation.",
