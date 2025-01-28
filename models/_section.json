@@ -47,7 +47,7 @@
         "fragment",
         "numberfields",
         "selectfields",
-        "textfields",
+        "text-fields",
         "contentpickers",
         "content-fragment",
         "experience-fragment"
