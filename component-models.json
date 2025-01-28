@@ -173,7 +173,7 @@
         "label": "AEM Tag Picker",
         "description": "Select an AEM tag",
         "name": "cq-tags",
-        "valueType": "string",
+        "valueType": "string[]",
         "rootPath": "/content/cq:tags/wknd-shared",
         "multi": true
       },
