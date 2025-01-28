@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p105881-e991001.adobeaemcloud.com/bin/franklin.delivery/davidjgonzalez/aem-wknd-eds-ue/main"
+    url: "https://author-p145250-e1496097.adobeaemcloud.com/bin/franklin.delivery/davidjgonzalez/aem-wknd-eds-ue/main"
     type: "markup"
     suffix: ".html"
