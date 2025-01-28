@@ -204,7 +204,7 @@
         "component": "aem-experience-fragment",
         "valueType": "string",
         "name": "experience-fragment",
-        "label": "experience-fragment",
+        "label": "Experience Fragment Path",
         "variationName": "experienceFragmentVariation",
         "validation": {
           "rootPath": "/content/experience-fragments"
