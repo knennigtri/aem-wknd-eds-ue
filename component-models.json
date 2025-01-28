@@ -192,7 +192,7 @@
         "component": "reference",
         "label": "Single Reference",
         "description": "Select any asset in /content/dam/wknd-shared",
-        "name": "reference",
+        "name": "singlereference",
         "valueType": "string",
         "multi": false
       },
@@ -200,7 +200,7 @@
         "component": "reference",
         "label": "Multiple References",
         "description": "Select any asset in /content/dam/wknd-shared",
-        "name": "reference",
+        "name": "multireference",
         "valueType": "string",
         "multi": true
       }
