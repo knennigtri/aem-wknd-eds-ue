@@ -16,7 +16,12 @@
       "cards",
       "columns",
       "fragment",
-      "cmptypes"
+      "numberfields",
+      "selectfields",
+      "textfields",
+      "contentpickers",
+      "content-fragment",
+      "experience-fragment"
     ]
   },
   {
