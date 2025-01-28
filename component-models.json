@@ -390,7 +390,7 @@
     ]
   },
   {
-    "id": "textfields",
+    "id": "text-fields",
     "fields": [
       {
         "component": "tab",

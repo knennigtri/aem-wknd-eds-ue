@@ -237,7 +237,7 @@
         },
         {
           "title": "Text Fields",
-          "id": "textfields",
+          "id": "text-fields",
           "plugins": {
             "xwalk": {
               "page": {
