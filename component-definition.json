@@ -245,8 +245,8 @@
                 "template": {
                   "name": "Text Fields",
                   "model": "text-fields",
-                  "rte": "This is initial text for the Rich Text Editor.",
-                  "text": "This is initial text for the Simple Text field."
+                  "field_rte": "This is initial text for the Rich Text Editor.",
+                  "field_text": "This is initial text for the Simple Text field."
                 }
               }
             }
