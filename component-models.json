@@ -172,7 +172,7 @@
         "component": "aem-tag",
         "label": "AEM Tag Picker",
         "description": "Select an AEM tag",
-        "name": "cq:tags",
+        "name": "cq-tags",
         "valueType": "string",
         "rootPath": "/content/cq:tags",
         "multi": true
@@ -194,10 +194,7 @@
         "description": "Select any asset in /content/dam",
         "name": "reference",
         "valueType": "string",
-        "multi": false,
-        "validation": {
-          "rootPath": "/content/dam/wknd-shared"
-        }
+        "multi": false
       }
     ]
   },
