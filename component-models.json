@@ -174,7 +174,8 @@
         "description": "Select an AEM tag",
         "name": "cq-tags",
         "valueType": "string",
-        "rootPath": "/content/cq:tags/wknd-shared"
+        "rootPath": "/content/cq:tags/wknd-shared",
+        "multi": true
       },
       {
         "component": "aem-content",
@@ -193,7 +194,7 @@
         "description": "Select any asset in /content/dam",
         "name": "reference",
         "valueType": "string",
-        "rootPath": "/content/dam/wknd-shared"
+        "multi": false
       }
     ]
   },
