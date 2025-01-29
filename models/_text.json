@@ -18,18 +18,8 @@
       "id": "text",
       "fields": [
         {
-          "component": "richtext",
-          "name": "rte",
-          "label": "Rich Text",
-          "valueType": "string",
-          "validation": {
-            "maxSize": 1000,
-            "customErrorMsg": "That's about as funny as a screen door on a battleship."
-          }
-        },
-        {
           "component": "multiselect",
-          "name": "styles",
+          "name": "classes",
           "label": "Styles",
           "description": "Optional styles for this block",
           "valueType": "string",

@@ -60,18 +60,8 @@
     "id": "text",
     "fields": [
       {
-        "component": "richtext",
-        "name": "rte",
-        "label": "Rich Text",
-        "valueType": "string",
-        "validation": {
-          "maxSize": 1000,
-          "customErrorMsg": "That's about as funny as a screen door on a battleship."
-        }
-      },
-      {
         "component": "multiselect",
-        "name": "styles",
+        "name": "classes",
         "label": "Styles",
         "description": "Optional styles for this block",
         "valueType": "string",
@@ -321,8 +311,13 @@
     "id": "number-fields",
     "fields": [
       {
+        "component": "tab",
+        "label": "Properties",
+        "name": "properties"
+      },
+      {
         "component": "container",
-        "label": "Non-Collapsible Container",
+        "label": "Container Title",
         "name": "container1",
         "valueType": "string",
         "collapsible": false,
@@ -346,16 +341,7 @@
             "label": "Boolean",
             "name": "container1_boolean",
             "valueType": "boolean"
-          }
-        ]
-      },
-      {
-        "component": "container",
-        "label": "Collapsible Container",
-        "name": "container2",
-        "valueType": "string",
-        "collapsible": true,
-        "fields": [
+          },
           {
             "component": "date-time",
             "valueType": "date-time",
@@ -383,17 +369,32 @@
               "numberMax": 88,
               "customErrorMsg": "You also need 1.21 gigawatts."
             }
+          }
+        ]
+      },
+      {
+        "component": "tab",
+        "label": "Styles",
+        "name": "styles"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Styles",
+        "description": "Optional styles for this block",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Style 1",
+            "value": "style1"
           },
           {
-            "component": "select",
-            "name": "classes",
-            "value": "",
-            "label": "Styles",
-            "description": "Optional styles for this block",
-            "valueType": "string",
-            "options": [
-              {}
-            ]
+            "name": "Style 2",
+            "value": "style2"
+          },
+          {
+            "name": "Style 3",
+            "value": "style3"
           }
         ]
       }
@@ -404,29 +405,13 @@
     "fields": [
       {
         "component": "tab",
-        "label": "Tab 1",
-        "name": "tab1"
-      },
-      {
-        "component": "checkbox-group",
-        "label": "Checkbox Group",
-        "name": "tab1_checkbox",
-        "valueType": "string[]",
-        "options": [
-          {
-            "name": "Checkbox 1",
-            "value": "checkbox1"
-          },
-          {
-            "name": "Checkbox 2",
-            "value": "checkbox2"
-          }
-        ]
+        "label": "Properties",
+        "name": "properties"
       },
       {
         "component": "radio-group",
         "label": "Radio Group",
-        "name": "tab1_radio",
+        "name": "radio",
         "valueType": "string",
         "options": [
           {
@@ -440,14 +425,9 @@
         ]
       },
       {
-        "component": "tab",
-        "label": "Tab 2",
-        "name": "tab2"
-      },
-      {
         "component": "select",
         "label": "Select",
-        "name": "tab2_select",
+        "name": "select",
         "valueType": "string",
         "options": [
           {
@@ -462,7 +442,7 @@
       },
       {
         "component": "multiselect",
-        "name": "tab2_multiselect",
+        "name": "multiselect",
         "label": "Multiselect field",
         "valueType": "string",
         "required": true,
@@ -501,14 +481,29 @@
         ]
       },
       {
+        "component": "tab",
+        "label": "Styles",
+        "name": "styles"
+      },
+      {
         "component": "select",
         "name": "classes",
-        "value": "",
         "label": "Styles",
         "description": "Optional styles for this block",
         "valueType": "string",
         "options": [
-          {}
+          {
+            "name": "Style 1",
+            "value": "style1"
+          },
+          {
+            "name": "Style 2",
+            "value": "style2"
+          },
+          {
+            "name": "Style 3",
+            "value": "style3"
+          }
         ]
       }
     ]

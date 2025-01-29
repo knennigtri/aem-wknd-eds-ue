@@ -24,8 +24,13 @@
       "id": "number-fields",
       "fields": [
         {
+          "component": "tab",
+          "label": "Properties",
+          "name": "properties"
+        },
+        {
           "component": "container",
-          "label": "Non-Collapsible Container",
+          "label": "Container Title",
           "name": "container1",
           "valueType": "string",
           "collapsible": false,
@@ -49,16 +54,7 @@
               "label": "Boolean",
               "name": "container1_boolean",
               "valueType": "boolean"
-            }
-          ]
-        },
-        {
-          "component": "container",
-          "label": "Collapsible Container",
-          "name": "container2",
-          "valueType": "string",
-          "collapsible": true,
-          "fields": [
+            },
             {
               "component": "date-time",
               "valueType": "date-time",
@@ -86,17 +82,32 @@
                 "numberMax": 88,
                 "customErrorMsg": "You also need 1.21 gigawatts."
               }
+            } 
+          ]
+        },
+        {
+          "component": "tab",
+          "label": "Styles",
+          "name": "styles"
+        },
+        {
+          "component": "select",
+          "name": "classes",
+          "label": "Styles",
+          "description": "Optional styles for this block",
+          "valueType": "string",
+          "options": [
+            {
+              "name": "Style 1",
+              "value": "style1"
             },
             {
-              "component": "select",
-              "name": "classes",
-              "value": "",
-              "label": "Styles",
-              "description": "Optional styles for this block",
-              "valueType": "string",
-              "options": [
-                {}
-              ]
+              "name": "Style 2",
+              "value": "style2"
+            },
+            {
+              "name": "Style 3",
+              "value": "style3"
             }
           ]
         }

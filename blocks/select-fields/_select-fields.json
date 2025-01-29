@@ -22,29 +22,13 @@
       "fields": [
         {
           "component": "tab",
-          "label": "Tab 1",
-          "name": "tab1"
-        },
-        {
-          "component": "checkbox-group",
-          "label": "Checkbox Group",
-          "name": "tab1_checkbox",
-          "valueType": "string[]",
-          "options": [
-            {
-              "name": "Checkbox 1",
-              "value": "checkbox1"
-            },
-            {
-              "name": "Checkbox 2",
-              "value": "checkbox2"
-            }
-          ]
+          "label": "Properties",
+          "name": "properties"
         },
         {
           "component": "radio-group",
           "label": "Radio Group",
-          "name": "tab1_radio",
+          "name": "radio",
           "valueType": "string",
           "options": [
             {
@@ -58,14 +42,9 @@
           ]
         },
         {
-          "component": "tab",
-          "label": "Tab 2",
-          "name": "tab2"
-        },
-        {
           "component": "select",
           "label": "Select",
-          "name": "tab2_select",
+          "name": "select",
           "valueType": "string",
           "options": [
             {
@@ -80,7 +59,7 @@
         },
         {
           "component": "multiselect",
-          "name": "tab2_multiselect",
+          "name": "multiselect",
           "label": "Multiselect field",
           "valueType": "string",
           "required": true,
@@ -119,14 +98,29 @@
           ]
         },
         {
+          "component": "tab",
+          "label": "Styles",
+          "name": "styles"
+        },
+        {
           "component": "select",
           "name": "classes",
-          "value": "",
           "label": "Styles",
           "description": "Optional styles for this block",
           "valueType": "string",
           "options": [
-            {}
+              {
+                "name": "Style 1",
+                "value": "style1"
+              },
+              {
+                "name": "Style 2",
+                "value": "style2"
+              },
+              {
+                "name": "Style 3",
+                "value": "style3"
+              }
           ]
         }
       ]
