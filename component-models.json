@@ -301,36 +301,45 @@
     "id": "number-fields",
     "fields": [
       {
-        "component": "text",
-        "name": "field_text",
-        "label": "Simple Text",
+        "component": "container",
+        "label": "Non-Collapsible Container",
+        "name": "container1",
         "valueType": "string",
-        "description": "This is a text input with validation.",
-        "required": true,
-        "validation": {
-          "minLength": 3,
-          "maxLength": 50,
-          "regExp": "^foo:.*",
-          "customErrorMsg": "Why don't you make like a tree and get outta here?"
-        }
-      },
-      {
-        "component": "boolean",
-        "label": "Boolean",
-        "name": "boolean",
-        "valueType": "boolean"
+        "collapsible": false,
+        "fields": [
+          {
+            "component": "text",
+            "name": "container1_text",
+            "label": "Simple Text",
+            "valueType": "string",
+            "description": "This is a text input with validation.",
+            "required": true,
+            "validation": {
+              "minLength": 3,
+              "maxLength": 50,
+              "regExp": "^foo:.*",
+              "customErrorMsg": "Why don't you make like a tree and get outta here?"
+            }
+          },
+          {
+            "component": "boolean",
+            "label": "Boolean",
+            "name": "container1_boolean",
+            "valueType": "boolean"
+          }
+        ]
       },
       {
         "component": "container",
-        "label": "Container",
-        "name": "container",
+        "label": "Collapsible Container",
+        "name": "container2",
         "valueType": "string",
         "collapsible": true,
         "fields": [
           {
             "component": "date-time",
             "valueType": "date-time",
-            "name": "datetimefield",
+            "name": "container2_datetimefield",
             "label": "Date Time",
             "description": "This is a date time field that stores both date and time.",
             "required": true,
@@ -344,7 +353,7 @@
           {
             "component": "number",
             "valueType": "number",
-            "name": "numberfield",
+            "name": "container2_numberfield",
             "label": "Number Field",
             "description": "This is a number field.",
             "required": true,
@@ -370,32 +379,32 @@
       {
         "component": "checkbox-group",
         "label": "Checkbox Group",
-        "name": "checkbox",
+        "name": "tab1_checkbox",
         "valueType": "string[]",
         "options": [
           {
-            "name": "Option 1",
-            "value": "option1"
+            "name": "Checkbox 1",
+            "value": "checkbox1"
           },
           {
-            "name": "Option 2",
-            "value": "option2"
+            "name": "Checkbox 2",
+            "value": "checkbox2"
           }
         ]
       },
       {
         "component": "radio-group",
         "label": "Radio Group",
-        "name": "radio",
+        "name": "tab1_radio",
         "valueType": "string",
         "options": [
           {
-            "name": "Option 1",
-            "value": "option1"
+            "name": "Radio 1",
+            "value": "radio1"
           },
           {
-            "name": "Option 2",
-            "value": "option2"
+            "name": "Radio 2",
+            "value": "radio2"
           }
         ]
       },
@@ -407,22 +416,22 @@
       {
         "component": "select",
         "label": "Select",
-        "name": "select",
+        "name": "tab2_select",
         "valueType": "string",
         "options": [
           {
-            "name": "Option 1",
-            "value": "option1"
+            "name": "Select 1",
+            "value": "select1"
           },
           {
-            "name": "Option 2",
-            "value": "option2"
+            "name": "Select 2",
+            "value": "select2"
           }
         ]
       },
       {
         "component": "multiselect",
-        "name": "property",
+        "name": "tab2_multiselect",
         "label": "Multiselect field",
         "valueType": "string",
         "required": true,

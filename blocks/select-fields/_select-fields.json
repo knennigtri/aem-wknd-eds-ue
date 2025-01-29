@@ -28,32 +28,32 @@
         {
           "component": "checkbox-group",
           "label": "Checkbox Group",
-          "name": "checkbox",
+          "name": "tab1_checkbox",
           "valueType": "string[]",
           "options": [
             {
-              "name": "Option 1",
-              "value": "option1"
+              "name": "Checkbox 1",
+              "value": "checkbox1"
             },
             {
-              "name": "Option 2",
-              "value": "option2"
+              "name": "Checkbox 2",
+              "value": "checkbox2"
             }
           ]
         },
         {
           "component": "radio-group",
           "label": "Radio Group",
-          "name": "radio",
+          "name": "tab1_radio",
           "valueType": "string",
           "options": [
             {
-              "name": "Option 1",
-              "value": "option1"
+              "name": "Radio 1",
+              "value": "radio1"
             },
             {
-              "name": "Option 2",
-              "value": "option2"
+              "name": "Radio 2",
+              "value": "radio2"
             }
           ]
         },
@@ -65,22 +65,22 @@
         {
           "component": "select",
           "label": "Select",
-          "name": "select",
+          "name": "tab2_select",
           "valueType": "string",
           "options": [
             {
-              "name": "Option 1",
-              "value": "option1"
+              "name": "Select 1",
+              "value": "select1"
             },
             {
-              "name": "Option 2",
-              "value": "option2"
+              "name": "Select 2",
+              "value": "select2"
             }
           ]
         },
         {
           "component": "multiselect",
-          "name": "property",
+          "name": "tab2_multiselect",
           "label": "Multiselect field",
           "valueType": "string",
           "required": true,
