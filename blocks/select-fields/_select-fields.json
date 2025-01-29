@@ -117,6 +117,17 @@
               ]
             }
           ]
+        },
+        {
+          "component": "select",
+          "name": "classes",
+          "value": "",
+          "label": "Styles",
+          "description": "Optional styles for this block",
+          "valueType": "string",
+          "options": [
+            {}
+          ]
         }
       ]
     }
