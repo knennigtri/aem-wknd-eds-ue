@@ -24,6 +24,26 @@
         "id": "number-fields",
         "fields": [
               {
+                "component": "text",
+                "name": "field_text",
+                "label": "Simple Text",
+                "valueType": "string",
+                "description": "This is a text input with validation.",
+                "required": true,
+                "validation": {
+                  "minLength": 3,
+                  "maxLength": 50,
+                  "regExp": "^foo:.*",
+                  "customErrorMsg": "Why don't you make like a tree and get outta here?"
+                }
+              },
+              {
+                "component": "boolean",
+                "label": "Boolean",
+                "name": "boolean",
+                "valueType": "boolean"
+              },
+              {
                 "component": "container",
                 "label": "Container",
                 "name": "container",
@@ -59,12 +79,6 @@
                     }
                   }
                 ]
-              },
-              {
-                "component": "boolean",
-                "label": "Boolean",
-                "name": "boolean",
-                "valueType": "boolean"
               }
         ]
       }

@@ -23,33 +23,6 @@
       "id": "text-fields",
       "fields": [
         {
-          "component": "select",
-          "name": "classes",
-          "value": "",
-          "label": "Background Color",
-          "description": "The marquee background color",
-          "valueType": "string",
-          "options": [
-            {
-              "name": "Red",
-              "value": "bg-red"
-            },
-            {
-              "name": "Green",
-              "value": "bg-green"
-            },
-            {
-              "name": "Blue",
-              "value": "bg-blue"
-            }
-          ]
-        },
-        {
-          "component": "tab",
-          "label": "Tab 1",
-          "name": "tab1"
-        },
-        {
           "component": "richtext",
           "name": "field_rte",
           "label": "Rich Text",
@@ -60,23 +33,48 @@
           }
         },
         {
-          "component": "tab",
-          "label": "Tab 2",
-          "name": "tab2"
-        },
-        {
-          "component": "text",
-          "name": "field_text",
-          "label": "Simple Text",
+          "component": "multiselect",
+          "name": "classes",
+          "value": "",
+          "label": "Styles",
+          "description": "Optional styles for this block",
           "valueType": "string",
-          "description": "This is a text input with validation.",
-          "required": true,
-          "validation": {
-            "minLength": 3,
-            "maxLength": 50,
-            "regExp": "^foo:.*",
-            "customErrorMsg": "Why don't you make like a tree and get outta here?"
-          }
+          "options": [
+            {
+              "name": "Color",
+              "children": [
+                {
+                  "name": "Red",
+                  "value": "bg-red"
+                },
+                {
+                  "name": "Green",
+                  "value": "bg-green"
+                },
+                {
+                  "name": "Blue",
+                  "value": "bg-blue"
+                }
+              ]
+            },
+            {
+              "name": "Alignment",
+              "children": [
+                {
+                  "name": "Red",
+                  "value": "right"
+                },
+                {
+                  "name": "Green",
+                  "value": "left"
+                },
+                {
+                  "name": "Blue",
+                  "value": "center"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
