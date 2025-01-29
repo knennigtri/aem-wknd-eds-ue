@@ -23,6 +23,28 @@
       "id": "text-fields",
       "fields": [
         {
+          "component": "select",
+          "name": "classes",
+          "value": "",
+          "label": "Background Color",
+          "description": "The marquee background color",
+          "valueType": "string",
+          "options": [
+            {
+              "name": "Red",
+              "value": "bg-red"
+            },
+            {
+              "name": "Green",
+              "value": "bg-green"
+            },
+            {
+              "name": "Blue",
+              "value": "bg-blue"
+            }
+          ]
+        },
+        {
           "component": "tab",
           "label": "Tab 1",
           "name": "tab1"
@@ -55,28 +77,6 @@
             "regExp": "^foo:.*",
             "customErrorMsg": "Why don't you make like a tree and get outta here?"
           }
-        },
-        {
-          "component": "select",
-          "name": "classes",
-          "value": "",
-          "label": "Background Color",
-          "description": "The marquee background color",
-          "valueType": "string",
-          "options": [
-            {
-              "name": "Red",
-              "value": "bg-red"
-            },
-            {
-              "name": "Green",
-              "value": "bg-green"
-            },
-            {
-              "name": "Blue",
-              "value": "bg-blue"
-            }
-          ]
         }
       ]
     }
