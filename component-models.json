@@ -243,9 +243,9 @@
       },
       {
         "component": "aem-tag",
-        "label": "AEM Tag Picker",
-        "description": "Select an AEM tag",
-        "name": "tags",
+        "name": "tag",
+        "value": "",
+        "label": "Tag",
         "valueType": "string"
       },
       {
