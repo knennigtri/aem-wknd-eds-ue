@@ -18,45 +18,23 @@
       "id": "text",
       "fields": [
         {
-          "component": "multiselect",
+          "component": "select",
           "name": "classes",
           "label": "Styles",
           "description": "Optional styles for this block",
           "valueType": "string",
           "options": [
             {
-              "name": "Color",
-              "children": [
-                {
-                  "name": "Red",
-                  "value": "bg-red"
-                },
-                {
-                  "name": "Green",
-                  "value": "bg-green"
-                },
-                {
-                  "name": "Blue",
-                  "value": "bg-blue"
-                }
-              ]
+              "name": "Style 1",
+              "value": "style1"
             },
             {
-              "name": "Alignment",
-              "children": [
-                {
-                  "name": "Red",
-                  "value": "right"
-                },
-                {
-                  "name": "Green",
-                  "value": "left"
-                },
-                {
-                  "name": "Blue",
-                  "value": "center"
-                }
-              ]
+              "name": "Style 2",
+              "value": "style2"
+            },
+            {
+              "name": "Style 3",
+              "value": "style3"
             }
           ]
         }
