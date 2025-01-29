@@ -246,8 +246,7 @@
         "label": "AEM Tag Picker",
         "description": "Select an AEM tag",
         "name": "tags",
-        "valueType": "string",
-        "rootPath": "/content/cq:tags/wknd-shared"
+        "valueType": "string"
       },
       {
         "component": "tab",

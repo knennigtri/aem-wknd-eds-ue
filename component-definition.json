@@ -152,7 +152,7 @@
                 "template": {
                   "name": "Content Pickers",
                   "model": "content-pickers",
-                  "tags": "/content/cq:tags/wknd-shared/activity/hiking",
+                  "tags": "wknd-shared:activity/cycling",
                   "aemreference": "/content/aem-wknd-eds-ue/index",
                   "reference": "/content/dam/wknd-shared/en/adventures/beervana-portland/adam-wilson-642203-unsplash.jpg"
                 }

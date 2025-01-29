@@ -10,7 +10,7 @@
               "template": {
                 "name": "Content Pickers",
                 "model": "content-pickers",
-                "tags": "/content/cq:tags/wknd-shared/activity/hiking",
+                "tags": "wknd-shared:activity/cycling",
                 "aemreference": "/content/aem-wknd-eds-ue/index",
                 "reference": "/content/dam/wknd-shared/en/adventures/beervana-portland/adam-wilson-642203-unsplash.jpg"
               }
@@ -33,8 +33,7 @@
                 "label": "AEM Tag Picker",
                 "description": "Select an AEM tag",
                 "name": "tags",
-                "valueType": "string",
-                "rootPath": "/content/cq:tags/wknd-shared"
+                "valueType": "string"
               },
               {
                 "component": "tab",
