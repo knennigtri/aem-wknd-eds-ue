@@ -1,5 +1,7 @@
 /* /blocks/teaser/teaser.css */
 
+@import url("/styles/card.css");
+
 /* Scope each selector in the block with `.block.teaser` to avoid accidental conflicts outside the block */
 .block.teaser {
     animation: teaser-fade-in 1s;
