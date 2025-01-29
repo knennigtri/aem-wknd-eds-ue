@@ -29,8 +29,7 @@
         },
         {
           "component": "multiselect",
-          "name": "classes",
-          "value": "",
+          "name": "styles",
           "label": "Styles",
           "description": "Optional styles for this block",
           "valueType": "string",
