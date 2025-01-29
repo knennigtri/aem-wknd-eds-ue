@@ -13,5 +13,55 @@
       }
     }
   ],
-  "models": []
+  "models": [
+    {
+      "id": "text",
+      "fields": [
+        {
+          "component": "multiselect",
+          "name": "classes",
+          "value": "",
+          "label": "Styles",
+          "description": "Optional styles for this block",
+          "valueType": "string",
+          "options": [
+            {
+              "name": "Color",
+              "children": [
+                {
+                  "name": "Red",
+                  "value": "bg-red"
+                },
+                {
+                  "name": "Green",
+                  "value": "bg-green"
+                },
+                {
+                  "name": "Blue",
+                  "value": "bg-blue"
+                }
+              ]
+            },
+            {
+              "name": "Alignment",
+              "children": [
+                {
+                  "name": "Red",
+                  "value": "right"
+                },
+                {
+                  "name": "Green",
+                  "value": "left"
+                },
+                {
+                  "name": "Blue",
+                  "value": "center"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
