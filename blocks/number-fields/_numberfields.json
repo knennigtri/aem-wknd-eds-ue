@@ -10,9 +10,10 @@
             "template": {
               "name": "Number Fields",
               "model": "number-fields",
-              "datetimefield": "2025-01-29T00:01:00",
-              "numberfield": 75,
-              "boolean": true
+              "container1_text": "Enter a DateTime, Number, and Boolean value.",
+              "container1_datetimefield": "2025-01-29T00:01:00",
+              "container1_numberfield": 75,
+              "container1_boolean": true
             }
           }
         }
@@ -58,7 +59,7 @@
             {
               "component": "date-time",
               "valueType": "date-time",
-              "name": "container2_datetimefield",
+              "name": "container1_datetimefield",
               "label": "Date Time",
               "description": "This is a date time field that stores both date and time.",
               "required": true,
@@ -72,7 +73,7 @@
             {
               "component": "number",
               "valueType": "number",
-              "name": "container2_numberfield",
+              "name": "container1_numberfield",
               "label": "Number Field",
               "description": "This is a number field.",
               "required": true,

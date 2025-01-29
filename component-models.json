@@ -237,12 +237,22 @@
     "id": "content-pickers",
     "fields": [
       {
+        "component": "tab",
+        "label": "Tags",
+        "name": "tab1"
+      },
+      {
         "component": "aem-tag",
         "label": "AEM Tag Picker",
         "description": "Select an AEM tag",
         "name": "tags",
         "valueType": "string",
         "rootPath": "/content/cq:tags/wknd-shared"
+      },
+      {
+        "component": "tab",
+        "label": "AEM Content",
+        "name": "tab2"
       },
       {
         "component": "aem-content",
@@ -256,12 +266,22 @@
         }
       },
       {
+        "component": "tab",
+        "label": "AEM Assets",
+        "name": "tab3"
+      },
+      {
         "component": "reference",
         "label": "Single Reference",
         "description": "Select any asset in /content/dam",
         "name": "reference",
         "valueType": "string",
         "multi": false
+      },
+      {
+        "component": "tab",
+        "label": "Styles",
+        "name": "styles"
       },
       {
         "component": "select",
@@ -271,7 +291,18 @@
         "description": "Optional styles for this block",
         "valueType": "string",
         "options": [
-          {}
+          {
+            "name": "Style 1",
+            "value": "style1"
+          },
+          {
+            "name": "Style 2",
+            "value": "style2"
+          },
+          {
+            "name": "Style 3",
+            "value": "style3"
+          }
         ]
       }
     ]
@@ -365,7 +396,7 @@
           {
             "component": "date-time",
             "valueType": "date-time",
-            "name": "container2_datetimefield",
+            "name": "container1_datetimefield",
             "label": "Date Time",
             "description": "This is a date time field that stores both date and time.",
             "required": true,
@@ -379,7 +410,7 @@
           {
             "component": "number",
             "valueType": "number",
-            "name": "container2_numberfield",
+            "name": "container1_numberfield",
             "label": "Number Field",
             "description": "This is a number field.",
             "required": true,
