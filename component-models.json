@@ -404,9 +404,20 @@
     "id": "select-fields",
     "fields": [
       {
-        "component": "tab",
-        "label": "Properties",
-        "name": "properties"
+        "component": "checkbox-group",
+        "label": "Checkbox Group",
+        "name": "checkbox",
+        "valueType": "string[]",
+        "options": [
+          {
+            "name": "Checkbox 1",
+            "value": "checkbox1"
+          },
+          {
+            "name": "Checkbox 2",
+            "value": "checkbox2"
+          }
+        ]
       },
       {
         "component": "radio-group",
@@ -477,32 +488,6 @@
                 "value": "gamma"
               }
             ]
-          }
-        ]
-      },
-      {
-        "component": "tab",
-        "label": "Styles",
-        "name": "styles"
-      },
-      {
-        "component": "select",
-        "name": "classes",
-        "label": "Styles",
-        "description": "Optional styles for this block",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Style 1",
-            "value": "style1"
-          },
-          {
-            "name": "Style 2",
-            "value": "style2"
-          },
-          {
-            "name": "Style 3",
-            "value": "style3"
           }
         ]
       }
