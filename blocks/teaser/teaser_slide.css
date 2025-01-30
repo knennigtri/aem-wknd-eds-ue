@@ -13,20 +13,17 @@
 }
 
 .cmp-teaser--slide {
-
-    .cmp-teaser {
         min-height: var(--teaser-slide-height);
         position: relative;
         overflow: hidden;
-    }
+    
 
-    @media (max-width: 768px) { /* Adjust this breakpoint if needed */
-        .cmp-teaser {
+    @media (width <= 768px) { /* Adjust this breakpoint if needed */
             min-height: var(--teaser-slide-mobile-height);
-        }
+        
     }
 
-    .cmp-image__image {
+    .image {
         height: var(--teaser-slide-height);
         object-fit: cover;
         object-position: top;
@@ -35,27 +32,27 @@
         margin: 0;
     }
 
-    @media (max-width: 768px) {
-        .cmp-image__image {
+    @media (width <= 768px) {
+        .image {
             opacity: 0.75;
         }
     }
 
-    .cmp-teaser__content {
+    .content {
         position: absolute;
         left: 2rem;
         bottom: 8em;
         max-width: var(--teaser-slide-content-width);
     }
 
-    @media (max-width: 1024px) {
-        .cmp-teaser__content {
+    @media (width <= 1024px) {
+        .content {
             top: 8em;
         }
     }
 
-    @media (max-width: 768px) {
-        .cmp-teaser__content {
+    @media (width <= 768px) {
+        .content {
             top: 8em;
             left: 0;
             text-align: center;
@@ -63,7 +60,7 @@
         }
     }
 
-    .cmp-teaser__title {
+    .title {
         font-size: var(--teaser-slide-title-font-size);
         color: var(--teaser-slide-title-color);
         width: 100%;
@@ -71,26 +68,26 @@
         max-width: calc(var(--teaser-slide-content-width) - 100px);
     }
 
-    @media (max-width: 768px) {
-        .cmp-teaser__title {
+    @media (width <= 768px) {
+        .title {
             max-width: 100%;
         }
     }
 
-    .cmp-teaser__description {
+    .content p {
         color: var(--teaser-slide-description-color);
         font-size: var(--teaser-slide-description-font-size);
         margin-bottom: 2em;
         max-width: var(--teaser-slide-content-width);
     }
 
-    @media (max-width: 768px) {
-        .cmp-teaser__description {
+    @media (width <= 768px) {
+        .content p {
             max-width: 100%;
         }
     }
 
-    .cmp-teaser__action-link {
+    .button {
         background-color: var(--teaser-slide-button-bg);
         text-transform: uppercase;
         font-size: var(--teaser-slide-button-font-size);

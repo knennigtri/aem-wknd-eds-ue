@@ -3,18 +3,16 @@
 .cmp-teaser--featured {
     .cmp-teaser {
         display: flex;
-        flex-direction: row-reverse;
-        flex-wrap: wrap;
+        flex-flow: row-reverse wrap;
         width: 100%;
         margin-bottom: 1em;
         animation: teaser-fade-in 1s;
     }
 
-    .cmp-teaser__image {
+    .image-wrapper {
         display: flex;
         flex-direction: column;
-        flex-basis: 100%;
-        flex: 2;
+        flex: 2 2 100%;
         position: relative;
         overflow: hidden;
 
@@ -23,7 +21,7 @@
             height: 100%;
         }
 
-        .cmp-image__image {
+        .image {
             object-fit: cover;
             object-position: center;
             width: 100%;
@@ -33,32 +31,31 @@
         }
     }
 
-    .cmp-teaser__content {
+    .content {
         display: flex;
         flex-direction: column;
-        flex-basis: 100%;
-        flex: 1;
+        flex: 1 1 100%;
         background-color: var(--background-color);
         padding: 3.5em 2em 2em;
         max-width: 600px;
     }
 
-    .cmp-teaser__title {
+    .title {
         font-size: var(--heading-font-size-xl);
         margin: 0 0 0.5em;
     }
 
-    .cmp-teaser__description {
+    .content p {
         font-size: var(--body-font-size-s);
         text-align: left;
         margin-bottom: 1em;
     }
 
-    .cmp-teaser__action-container {
+    .button-container {
         margin-top: auto;
     }
 
-    .cmp-teaser__action-link {
+    .button {
         background-color: var(--primary-color);
         border-radius: 0;
         color: var(--dark-color);
@@ -70,30 +67,29 @@
         transition: all 0.25s ease-out;
     }
 
-    .cmp-teaser__action-link:hover {
+    .button:hover {
         background-color: var(--link-hover-color);
         color: var(--background-color);
         border-color: var(--link-hover-color);
     }
 
     &:hover {
-        .cmp-image__image {
+        .image {
             transform: scale(1.1);
         }
     }
 
     /* Mobile Stacked Layout */
-    @media (max-width: 900px) {
-        .cmp-teaser {
-            flex-direction: column;
+    @media (width <=900px) {
+        flex-direction: column;
+
+
+        .image-wrapper {
+            flex: 1 1 0;
         }
 
-        .cmp-teaser__image {
-            flex: 1;
-        }
-
-        .cmp-teaser__content {
-            flex: 1;
+        .content {
+            flex: 1 1 0;
             margin-top: -1em;
             max-width: 100%;
         }
@@ -105,6 +101,7 @@
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }

@@ -1,7 +1,6 @@
 /* Card Teaser Block (Aligned with Default Teaser) */
 
 .cmp-teaser--card {
-    .cmp-teaser {
         animation: teaser-fade-in 1s;
         position: relative;
         width: 1600px;
@@ -13,20 +12,20 @@
         overflow: hidden;
         margin: 16px 0;
 
-        @media (max-width: 900px) {
+        @media (width <= 900px) {
             width: 400px;
             margin-left: auto !important;
             margin-right: auto !important;
             height: auto;
         }
 
-        .cmp-teaser__image {
+        .image-wrapper {
             position: absolute;
             z-index: -1;
             inset: 0;
             overflow: hidden;
 
-            .cmp-image__image {
+            .image {
                 object-fit: cover;
                 object-position: center;
                 width: 100%;
@@ -36,7 +35,7 @@
             }
         }
 
-        .cmp-teaser__content {
+        .content {
             position: absolute;
             bottom: 0;
             left: 50%;
@@ -47,22 +46,22 @@
             max-width: 1200px;
         }
 
-        .cmp-teaser__title {
+        .title {
             font-size: var(--heading-font-size-xl);
             margin: 0;
         }
 
-        .cmp-teaser__title::after {
+        .title::after {
             border-bottom: 0;
         }
 
-        .cmp-teaser__description {
+        .content p {
             font-size: var(--body-font-size-s);
             margin-bottom: 1rem;
             animation: teaser-fade-in 0.6s;
         }
 
-        .cmp-teaser__pretitle {
+        /* .cmp-teaser__pretitle {
             position: absolute;
             top: 0;
             right: 0;
@@ -70,17 +69,17 @@
             color: var(--background-color);
             background: var(--primary-color);
             border-bottom-left-radius: 4px;
-            box-shadow: -1px 2px 4px 1px rgba(0, 0, 0, 0.25);
+            box-shadow: -1px 2px 4px 1px rgb(0 0 0 / 25%);
             font-size: var(--body-font-size-xs);
             font-weight: bold;
-        }
+        } */
 
-        .cmp-teaser__action-container {
+        .button-container {
             margin: 0;
             padding: 0;
         }
 
-        .cmp-teaser__action-link {
+        .button {
             background-color: var(--primary-color);
             border-radius: 0;
             color: var(--dark-color);
@@ -93,18 +92,17 @@
             transition: all 0.25s ease-out;
         }
 
-        .cmp-teaser__action-link:hover {
+        .button:hover {
             background-color: var(--link-hover-color);
             color: var(--background-color);
             border-color: var(--link-hover-color);
         }
 
         &:hover {
-            .cmp-image__image {
+            .image {
                 transform: scale(1.1);
             }
         }
-    }
 }
 
 /* Fade-in animation from teaser block */

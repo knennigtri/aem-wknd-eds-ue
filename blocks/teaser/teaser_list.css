@@ -9,22 +9,21 @@
 }
 
 .cmp-teaser--list {
-
-    .cmp-teaser__image {
-        .cmp-image__image {
+    .image-wrapper {
+        .image {
             object-fit: cover;
             max-height: var(--teaser-list-image-max-height);
         }
     }
 
-    .cmp-teaser__title {
+    .title {
         font-size: var(--teaser-list-title-font-size);
         font-family: var(--teaser-list-font-family);
         font-weight: var(--teaser-list-font-weight);
         text-transform: var(--teaser-list-text-transform);
     }
 
-    .cmp-teaser__description {
+    .content p {
         font-size: var(--teaser-list-description-font-size);
         color: var(--teaser-list-description-color);
         text-transform: var(--teaser-list-text-transform);
