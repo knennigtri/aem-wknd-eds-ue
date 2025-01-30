@@ -595,6 +595,22 @@
           {
             "name": "Card",
             "value": "cmp-teaser--card"
+          },
+          {
+            "name": "Featured",
+            "value": "cmp-teaser--featured"
+          },
+          {
+            "name": "Hero",
+            "value": "cmp-teaser--hero"
+          },
+          {
+            "name": "List",
+            "value": "cmp-teaser--list"
+          },
+          {
+            "name": "Slide",
+            "value": "cmp-teaser--slide"
           }
         ]
       }
