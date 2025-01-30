@@ -78,32 +78,6 @@
     ]
   },
   {
-    "id": "text",
-    "fields": [
-      {
-        "component": "select",
-        "name": "classes",
-        "label": "Styles",
-        "description": "Optional styles for this block",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Style 1",
-            "value": "style1"
-          },
-          {
-            "name": "Style 2",
-            "value": "style2"
-          },
-          {
-            "name": "Style 3",
-            "value": "style3"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "button",
     "fields": [
       {
