@@ -27,8 +27,7 @@
   {
     "id": "cards",
     "components": [
-      "card",
-      "teaser"
+      "card"
     ]
   },
   {
