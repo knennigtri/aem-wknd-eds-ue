@@ -265,6 +265,11 @@
           }
         }
       ]
+    },
+    {
+      "title": "Fragments",
+      "id": "fragments",
+      "components": []
     }
   ]
 }
