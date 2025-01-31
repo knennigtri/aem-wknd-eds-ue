@@ -28,18 +28,6 @@
       ]
     },
     {
-      "title": "Fragments",
-      "id": "fragments",
-      "components": [
-        {
-          "...": "../blocks/*/_content-fragment.json#/definitions"
-        },
-        {
-          "...": "../blocks/*/_experience-fragment.json#/definitions"
-        }
-      ]
-    },
-    {
       "title": "Blocks",
       "id": "blocks",
       "components": [
