@@ -1,0 +1,35 @@
+:root {
+    --teaser-list-image-max-height: 200px;
+    --teaser-list-title-font-size: var(--heading-font-size-m);
+    --teaser-list-font-family: var(--body-font-family);
+    --teaser-list-font-weight: var(--font-weight-bold);
+    --teaser-list-text-transform: uppercase;
+    --teaser-list-description-font-size: var(--body-font-size-s);
+    --teaser-list-description-color: var(--secondary-color);
+}
+
+.cmp-teaser--list {
+    .image-wrapper {
+        .image {
+            object-fit: cover;
+            max-height: var(--teaser-list-image-max-height);
+        }
+    }
+
+    .title {
+        font-size: var(--teaser-list-title-font-size);
+        font-family: var(--teaser-list-font-family);
+        font-weight: var(--teaser-list-font-weight);
+        text-transform: var(--teaser-list-text-transform);
+    }
+
+    .content p {
+        font-size: var(--teaser-list-description-font-size);
+        color: var(--teaser-list-description-color);
+        text-transform: var(--teaser-list-text-transform);
+        
+        p {
+            font-size: var(--teaser-list-description-font-size);
+        }
+    }
+}

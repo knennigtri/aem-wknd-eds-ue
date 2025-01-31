@@ -220,6 +220,40 @@
         "name": "textContent_ctaText",
         "label": "CTA label",
         "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "value": "",
+        "label": "Styles",
+        "description": "Optional styles for this block",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Card",
+            "value": "cmp-teaser--card"
+          },
+          {
+            "name": "Featured",
+            "value": "cmp-teaser--featured"
+          },
+          {
+            "name": "Hero",
+            "value": "cmp-teaser--hero"
+          },
+          {
+            "name": "List",
+            "value": "cmp-teaser--list"
+          },
+          {
+            "name": "Slide",
+            "value": "cmp-teaser--slide"
+          }
+        ]
       }
     ]
   }
