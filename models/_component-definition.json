@@ -28,15 +28,6 @@
       ]
     },
     {
-      "title": "Blocks",
-      "id": "blocks",
-      "components": [
-        {
-          "...": "../blocks/*/_*.json#/definitions"
-        }
-      ]
-    },
-    {
       "title": "Fragments",
       "id": "fragments",
       "components": [
@@ -47,7 +38,15 @@
           "...": "../blocks/*/_experience-fragment.json#/definitions"
         }
       ]
+    },
+    {
+      "title": "Blocks",
+      "id": "blocks",
+      "components": [
+        {
+          "...": "../blocks/*/_*.json#/definitions"
+        }
+      ]
     }
-
   ]
 }

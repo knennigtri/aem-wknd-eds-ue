@@ -79,6 +79,11 @@
       ]
     },
     {
+      "title": "Fragments",
+      "id": "fragments",
+      "components": []
+    },
+    {
       "title": "Blocks",
       "id": "blocks",
       "components": [
@@ -265,11 +270,6 @@
           }
         }
       ]
-    },
-    {
-      "title": "Fragments",
-      "id": "fragments",
-      "components": []
     }
   ]
 }
