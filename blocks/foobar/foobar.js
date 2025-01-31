@@ -1,4 +1,7 @@
 // https://github.com/markszulc/securbank-aem-ue/blob/main/blocks/feature/feature.js
+// Make sure to update paths.json with a placeholder key/value
+// "/content/aem-wknd-eds-ue/placeholders:/placeholders.json"
+
 import { fetchPlaceholders } from '../../scripts/aem.js';
 
 export default async function decorate(block) {
