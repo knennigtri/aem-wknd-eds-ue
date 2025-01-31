@@ -41,7 +41,10 @@
       "id": "fragments",
       "components": [
         {
-          "...": "../blocks/*/_*-fragment.json#/definitions"
+          "...": "../blocks/*/_content-fragment.json#/definitions"
+        },
+        {
+          "...": "../blocks/*/_experience-fragment.json#/definitions"
         }
       ]
     }
