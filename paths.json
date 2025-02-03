@@ -6,7 +6,8 @@
     "/content/aem-wknd-eds-ue/placeholders:/placeholders.json",
     "/content/aem-wknd-eds-ue/redirects:/redirects.json",
     "/content/aem-wknd-eds-ue/headers:/.helix/headers.json",
-    "/content/aem-wknd-eds-ue/taxonomy:/taxonomy.json"
+    "/content/aem-wknd-eds-ue/taxonomy:/taxonomy.json",
+    "/content/experience-fragments/wknd:/experience-fragments/"
   ],
   "includes": [
     "/content/aem-wknd-eds-ue/"
