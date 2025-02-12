@@ -353,21 +353,6 @@
     ]
   },
   {
-    "id": "experience-fragment",
-    "fields": [
-      {
-        "component": "aem-experience-fragment",
-        "valueType": "string",
-        "name": "experience-fragment",
-        "label": "Experience Fragment Path",
-        "variationName": "experienceFragmentVariation",
-        "validation": {
-          "rootPath": "/content/experience-fragments"
-        }
-      }
-    ]
-  },
-  {
     "id": "foobar",
     "fields": [
       {
